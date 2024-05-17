@@ -1,0 +1,45 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color:rgb(237, 237, 237);
+}
+
+.header {
+  /* border: 1px solid Yellow; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  gap: 10px;
+}
+
+.headOne {
+  color: blue;
+  font-size: 25px;
+}
+
+.headTwo {
+  color: blue;
+  font-size: 15px;
+}
+
+.midDiv {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  color: blue;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+}
+
+.divs {
+  /* border: 1px solid red; */
+  width: 80%;
+  margin: auto;
+}
